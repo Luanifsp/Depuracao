@@ -8,7 +8,7 @@ namespace Depuracao
     {
         static int Mudar(int n)
         {
-            n = n = 1;
+            n = n + 1;
             return n;
         }
         static void Main(string[] args)
