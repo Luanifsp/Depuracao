@@ -11,6 +11,12 @@ namespace Depuracao
             n = n + 1;
             return n;
         }
+
+        static float Dividir(int n, int d)
+        {
+            return n / d;
+        }
+
         static void Main(string[] args)
         {
             int numero = 0;
